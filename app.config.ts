@@ -32,6 +32,11 @@ export default defineAppConfig({
     socials: {
       twitter: '',
       instagram: '',
+      linkedin: {
+        icon: 'uil:vk',
+        label: 'VK',
+        href: 'https://vk.com/happinessintravel'
+      }
     },
 
     form: {
