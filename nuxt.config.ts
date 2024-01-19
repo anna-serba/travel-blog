@@ -1,4 +1,7 @@
 export default defineNuxtConfig({
+  site: {
+    url: 'https://anna-in-travel.ru',
+  },
   // https://github.com/nuxt-themes/alpine
   extends: '@nuxt-themes/alpine',
 
@@ -7,9 +10,8 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible',
     // https://github.com/nuxt/devtools
     '@nuxt/devtools',
-    "nuxt-yandex-metrika",
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
+    '@artmizu/yandex-metrika-nuxt'
   ],
-  yandexMetrika: {
-    id: '96176633',
-  }
 })

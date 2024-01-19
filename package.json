@@ -11,12 +11,16 @@
   },
   "devDependencies": {
     "@nuxt-themes/alpine": "latest",
-    "@nuxt/devtools": "^0.8.5",
+    "@nuxt/devtools": "^1.0.8",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxtjs/plausible": "^0.2.3",
     "@types/node": "^20.7.1",
     "eslint": "^8.50.0",
-    "nuxt": "^3.7.4",
-    "nuxt-yandex-metrika": "^1.2.3"
+    "nuxt": "^3.7.4"
+  },
+  "dependencies": {
+    "@artmizu/yandex-metrika-nuxt": "^1.0.4",
+    "@nuxtjs/robots": "^3.0.0",
+    "@nuxtjs/sitemap": "^5.0.5"
   }
 }
