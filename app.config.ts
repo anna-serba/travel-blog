@@ -2,10 +2,10 @@ export default defineAppConfig({
   alpine: {
     title: 'Счастье в путешествиях',
     description: 'Я делюсь своим опытом и знаниями, чтобы помочь вам открыть для себя мир и сделать ваше путешествие ярким и запоминающимся.',
-
+    keywords: 'Путешествие, Азия, Тайланд, Владивосток, Китай, Вьетнам',
     image: {
-      src: '/social-card-preview.png',
-      alt: 'An image showcasing my project.',
+      src: '/aonang.jpg',
+      alt: 'Анна путешественица',
       width: 400,
       height: 300
     },
@@ -15,7 +15,7 @@ export default defineAppConfig({
       logo: {
         path: '/logo.svg', // path of the logo
         pathDark: '/logo.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'alpine' // alt of the logo
+        alt: 'Путешествие' // alt of the logo
       }
     },
 
